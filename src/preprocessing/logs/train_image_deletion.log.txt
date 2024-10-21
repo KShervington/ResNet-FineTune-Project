@@ -1,0 +1,27 @@
+1610 images deleted from dry_asphalt_severe. Now there are 5000 images left.
+22023 images deleted from dry_asphalt_slight. Now there are 5000 images left.
+71231 images deleted from dry_asphalt_smooth. Now there are 5000 images left.
+33850 images deleted from dry_concrete_severe. Now there are 5000 images left.
+11092 images deleted from dry_concrete_slight. Now there are 5000 images left.
+72938 images deleted from dry_concrete_smooth. Now there are 5000 images left.
+58417 images deleted from dry_gravel. Now there are 5000 images left.
+44348 images deleted from dry_mud. Now there are 5000 images left.
+68560 images deleted from fresh_snow. Now there are 5000 images left.
+49092 images deleted from ice. Now there are 5000 images left.
+56093 images deleted from melted_snow. Now there are 5000 images left.
+No need to delete images from water_asphalt_severe. The folder contains 2581 images, which is less than or equal to 5000.
+No need to delete images from water_asphalt_slight. The folder contains 4913 images, which is less than or equal to 5000.
+73390 images deleted from water_asphalt_smooth. Now there are 5000 images left.
+702 images deleted from water_concrete_severe. Now there are 5000 images left.
+No need to delete images from water_concrete_slight. The folder contains 3924 images, which is less than or equal to 5000.
+31046 images deleted from water_concrete_smooth. Now there are 5000 images left.
+1422 images deleted from water_gravel. Now there are 5000 images left.
+4279 images deleted from water_mud. Now there are 5000 images left.
+No need to delete images from wet_asphalt_severe. The folder contains 2161 images, which is less than or equal to 5000.
+19680 images deleted from wet_asphalt_slight. Now there are 5000 images left.
+74404 images deleted from wet_asphalt_smooth. Now there are 5000 images left.
+No need to delete images from wet_concrete_severe. The folder contains 3854 images, which is less than or equal to 5000.
+1301 images deleted from wet_concrete_slight. Now there are 5000 images left.
+61955 images deleted from wet_concrete_smooth. Now there are 5000 images left.
+31515 images deleted from wet_gravel. Now there are 5000 images left.
+42560 images deleted from wet_mud. Now there are 5000 images left.

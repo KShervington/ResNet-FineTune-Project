@@ -1,0 +1,5 @@
+tensorflow<2.11
+numpy<2.0
+keras 
+matplotlib 
+scikit-learn

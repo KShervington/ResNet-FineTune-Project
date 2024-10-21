@@ -1,0 +1,4 @@
+Processing directory: ../../dataset/validation
+Successfully processed directory: ../../dataset/validation in 39 seconds
+Processing directory: ../../dataset/test
+Successfully processed directory: ../../dataset/test in 112 seconds

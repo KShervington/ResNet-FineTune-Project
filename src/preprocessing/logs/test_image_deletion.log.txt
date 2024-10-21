@@ -1,0 +1,27 @@
+1250 images deleted from dry-asphalt-bad. Now there are 1100 images left.
+1250 images deleted from dry-asphalt-good. Now there are 1100 images left.
+No need to delete images from dry-asphalt-horrible. The folder contains 800 images, which is less than or equal to 1100.
+1250 images deleted from dry-concrete-bad. Now there are 1100 images left.
+1250 images deleted from dry-concrete-good. Now there are 1100 images left.
+1250 images deleted from dry-concrete-horrible. Now there are 1100 images left.
+1250 images deleted from dry-gravel. Now there are 1100 images left.
+1250 images deleted from dry-mud. Now there are 1100 images left.
+1250 images deleted from fresh_snow. Now there are 1100 images left.
+1250 images deleted from ice. Now there are 1100 images left.
+1250 images deleted from melted_snow. Now there are 1100 images left.
+No need to delete images from water-asphalt-bad. The folder contains 800 images, which is less than or equal to 1100.
+1250 images deleted from water-asphalt-good. Now there are 1100 images left.
+No need to delete images from water-asphalt-horrible. The folder contains 800 images, which is less than or equal to 1100.
+No need to delete images from water-concrete-bad. The folder contains 800 images, which is less than or equal to 1100.
+1250 images deleted from water-concrete-good. Now there are 1100 images left.
+No need to delete images from water-concrete-horrible. The folder contains 800 images, which is less than or equal to 1100.
+No need to delete images from water-gravel. The folder contains 800 images, which is less than or equal to 1100.
+1250 images deleted from water-mud. Now there are 1100 images left.
+1250 images deleted from wet-asphalt-bad. Now there are 1100 images left.
+1250 images deleted from wet-asphalt-good. Now there are 1100 images left.
+No need to delete images from wet-asphalt-horrible. The folder contains 800 images, which is less than or equal to 1100.
+No need to delete images from wet-concrete-bad. The folder contains 800 images, which is less than or equal to 1100.
+1250 images deleted from wet-concrete-good. Now there are 1100 images left.
+No need to delete images from wet-concrete-horrible. The folder contains 800 images, which is less than or equal to 1100.
+1250 images deleted from wet-gravel. Now there are 1100 images left.
+1250 images deleted from wet-mud. Now there are 1100 images left.
