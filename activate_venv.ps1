@@ -1,1 +1,0 @@
-.\tf_gpu_env\Scripts\activate

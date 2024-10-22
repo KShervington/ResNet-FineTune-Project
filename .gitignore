@@ -2,3 +2,4 @@
 dataset/**/*.jpg
 src/model/*.h5
 tf_gpu_env
+env
