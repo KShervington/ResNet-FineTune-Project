@@ -3,8 +3,8 @@ import time
 
 class_mappings = {
     "smooth": "good",
-    "slight": "bad",
-    "severe": "horrible"
+    "slight": "intermediate",
+    "severe": "bad"
 }
 
 # Create list of existing class names
