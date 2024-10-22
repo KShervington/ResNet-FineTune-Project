@@ -1,12 +1,14 @@
 import os
 import random
 
+# Folder which houses all subdirectories to be purged
 parent_folder = '../../dataset/train'
 
-# Set the target number of images
-target_num = 5000
-
+# List of subdirectories in the parent folder
 folders = os.listdir(parent_folder)
+
+# Set the target number of images (# of images that will remain)
+target_num = 5000
 
 # Iterate through each folder that contains images
 for folder in folders:

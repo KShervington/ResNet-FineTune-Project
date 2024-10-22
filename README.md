@@ -1,28 +1,38 @@
-Project originally run and executed on Windows 10 ver. 10.0.19045 Build 19045 by following [tutorial from Tensorflow](https://www.tensorflow.org/install/pip).
+## Important Files
+`src\model\fine_tune_resnet.ipynb` The main Jupyter notebook for working with the model.</br>
+`src\preprocessing\delete_to_n.py` A python script that deletes all files in a target directory until the number of files reaches a certain number **_n_**. It was used to reduce the size of the dataset, evenly, for faster training.</br>
+`src\preprocessing\map_class_names.py` A python script that converts (change the image and folder names) the dataset's native surface condition classes into OpenStreetMap (OSM) surface smoothness classes. Here is the mapping for conversion:
+| RSCD Class Name | OSM Class Name |
+| --- | --- |
+| smooth | good |
+| slight | intermediate |
+| severe | bad |
 
-- Python version 3.9.20 (within conda env)
-- CUDA Toolkit 11.2
-- cuDNN 8.1.0
-- Tensorflow 2.10.1
-- Miniconda3 (conda ver. 24.7.1)
+</br>
 
-# Project Setup (Windows)
-1. Install Miniconda
-   - Check miniconda installation by executing `conda info` in a command prompt. If this doesn't work, try launching a **Python Command Prompt** and executing `conda init` to initialize your command prompt with conda capabilities.
-2. Launch a command prompt in this project's root folder
-3. Create a local virtual environment: `conda create --prefix .\env python=3.9` (_replace 'env' with your preferred environment name if desired_)
-4. Activate the virtual environment: `conda activate .\env`
-5. (_Optional but recommended_) Enable GPU support: `conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0`
-6. Install helpful packages: `conda install ipykernel pip`
-   - `ipykernel`: for running kernels from conda
-   - `pip`: for installing packages from `requirements.txt` and those that can't be installed with `conda`
-7. Install project dependencies: `pip install -r requirements.txt`
-8. (_Optional_) Verify GPU support:
-    ```python
-    import tensorflow as tf
-    
-    if len(tf.config.list_physical_devices('GPU')) > 0:
-        print("GPU is Available!" )
-    else:
-        raise Exception("No GPU available") 
-    ```
+`src\preprocessing\reorganize_data.py` A python script that organizes a list of images into their respective dataset folders. This was created because the 'test' and 'validation' data of the RSCD dataset came as a folder with images from all different classes mixed together. The 'train' part of the dataset was organized and the script follows the same type of categorization.
+
+## Dataset citations
+
+```tex
+@ARTICLE{10101715,
+    author={Zhao, Tong and He, Junxiang and Lv, Jingcheng and Min, Delei and Wei, Yintao},
+    journal={IEEE Transactions on Intelligent Transportation Systems}, 
+    title={A Comprehensive Implementation of Road Surface Classification for Vehicle Driving Assistance: Dataset, Models, and Deployment}, 
+    year={2023},
+    volume={24},
+    number={8},
+    pages={8361-8370},
+    doi={10.1109/TITS.2023.3264588}}
+```
+
+```tex
+@article{ZHAO2024111019,
+    title = {Road friction estimation based on vision for safe autonomous driving},
+    journal = {Mechanical Systems and Signal Processing},
+    volume = {208},
+    pages = {111019},
+    year = {2024},
+    doi = {https://doi.org/10.1016/j.ymssp.2023.111019},
+    author = {Tong Zhao and Peilin Guo and Yintao Wei}}
+```
